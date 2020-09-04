@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document </title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css  ">
+    <link rel="stylesheet" href="/public/css/estilos.css">
+</head>
+<header>
+    <div class="espacio"></div>
+
+    <div class="portada">
+        <div class="col text-center">
+            <h4>Inicio de secion</h4>
+        </div>
+    </div>
+
+</header>
+
+<body>
+    <div background="/public/img/idea1.webp">
+
+        <form>
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="formulario">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input id="name" type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="apellido" type="text" class="form-control" placeholder="Apellido">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="number" type="number" class="form-control" placeholder="Edad">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="profesion" type="text" class="form-control" placeholder="Profesion">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="number2" type="text" class="form-control" placeholder="Telefono">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input id="email" type="text" class="form-control" placeholder="Correo">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea id="descripcion" class="form-control" id="exampleFormControlTextarea1"
+                                placeholder="Descripcion" rows="3"></textarea>
+                        </div>
+                        <a onclick="agregarDatos()" class="btn btn-danger">Registrarce</a>
+                        <a href="/public/index.html" class="btn btn-primary">Volver</a>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+    <!----FIREBASE-->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+
+    <script src="/public/js/operaciones.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+
+</html>

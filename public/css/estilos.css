@@ -1,0 +1,55 @@
+
+body{
+    margin: auto;
+    padding: auto;
+    width: 60%;
+    height: auto;
+    background: whitesmoke;
+    /*background-image: url();*/
+}
+
+body .Info-proyectos{
+    padding: 15px;
+}
+
+body .card{
+    margin: 4px;
+}
+
+body .container-2{
+    background: yellowgreen;
+}
+
+body form{
+    background: burlywood;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+body form .formulario{
+    padding: 2%;
+}
+
+header{
+    background: yellowgreen;
+    margin: 8px;
+}
+
+header .portada{
+    background: teal;
+}
+
+header .container .info{
+    background: white;
+    display: flex;
+    size: 800px 100px;
+}
+header .espacio{
+    margin: 80px;
+}
+
+form a{
+    background: crimson;
+}
